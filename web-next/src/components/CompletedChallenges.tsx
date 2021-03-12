@@ -5,6 +5,7 @@ export function CompletedChallenges(){
             <span>Desafios completos</span>
 
             <span> {10}</span>
+            
         </div>
     );
 }
