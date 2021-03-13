@@ -64,6 +64,7 @@
 }
 .challengeActive main p{
     line-height: 1.5;
+    margin-bottom: 1rem;
 }
 .challengeActive footer{
     display:grid;
@@ -78,9 +79,20 @@
     justify-content:center;
     
     border:0;
+    outline:none;
     border-radius: 5px;
 
     color: var(--white);
     font-size:1rem;
     font-weight: 600;
+    transition: filter 0.2s;
+}
+.challengeActive footer button.challengeFaliedButton{
+    background: var(--red);
+}
+.challengeActive footer button.challengeSucceedButton{
+    background: var(--green);
+}
+.challengeActive footer button:hover{
+    filter:brightness(0.9);
 }
