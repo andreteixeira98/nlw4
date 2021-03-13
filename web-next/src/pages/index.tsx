@@ -6,6 +6,7 @@ import {AiOutlineHome} from 'react-icons/ai';
 import Profile from '../components/Profile';
 import { CompletedChallenges } from '../components/CompletedChallenges';
 import { Countedown } from '../components/Countedown';
+import { ChallengeBox } from '../components/ChallengeBox';
 
 
 export default function Home() {
@@ -23,7 +24,7 @@ export default function Home() {
       <Countedown />
       </div>
       <div>
-
+        <ChallengeBox />
       </div>
     </section>
   </div>
