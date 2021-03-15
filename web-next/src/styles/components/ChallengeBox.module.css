@@ -57,8 +57,8 @@
     justify-content: center;
 }
 .challengeActive main strong{
-    font-size: 2rem;
     font-weight: 600;
+    font-size: 2rem;
     color: var(--title);
     margin: 1.5rem 0 1rem;
 }
@@ -79,7 +79,6 @@
     justify-content:center;
     
     border:0;
-    outline:none;
     border-radius: 5px;
 
     color: var(--white);
@@ -87,12 +86,12 @@
     font-weight: 600;
     transition: filter 0.2s;
 }
+.challengeActive footer button:hover{
+    filter:brightness(0.9);
+}
 .challengeActive footer button.challengeFaliedButton{
     background: var(--red);
 }
 .challengeActive footer button.challengeSucceedButton{
     background: var(--green);
-}
-.challengeActive footer button:hover{
-    filter:brightness(0.9);
 }

@@ -4,7 +4,7 @@
 
 }
 .experienceBar span{
-    font-size: 1rem;
+    font-size: 14px;
 }
 .experienceBar > div{
     flex: 1;
@@ -18,9 +18,11 @@
     height: 4px;
     border-radius: 4px;
     background: var(--green);
+    transition: width 0.4s; 
 }
-span.currentExperience{
+.experienceBar span.currentExperience{
     position: absolute;
     top:12px;
     transform: translateX(-50%);
+    transition: left 0.4s;
 }
